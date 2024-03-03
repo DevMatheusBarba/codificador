@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+}
+
+
+
+
+.info__criptografa-descriptografica {
+    margin-top: 50vh;
+}
+
+
+.info__criptografa-descriptografica>div {
+    margin: 0 12vw;
+    padding-top: 2vh;
+}
+
+.info__criptografa-descriptografica>div>button {
+    border-radius: 24px;
+}
+
+.conteudo__exibido {
+    height: 120px;
+}
+
+.card__conteudoExibido {
+    border: none;
+    height: 95%;
+    border-radius: 10px;
+}
+
+.conteudo__exibidoText {
+    color: #495057;
+    line-height: 24px;
+}
+
+textarea {
+    resize: none;
+    color: #0A3871;
+    border-radius: 10px;
+    background-color: #F3F5FC;
+}
+
+@media screen and (max-width: 480px) {
+    .layout__celTitulo {
+        font-size: 64px;
+    }
+
+    .layout__cel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .layout__cel-card,
+    .layout__celInsercao,
+    .conteudo__exibidoText {
+        width: 100%;
+    }
+
+    .info__criptografa-descriptografica {
+        margin-top: 15vh;
+    }
+
+    .ms-5 {
+        margin-left: 1rem !important;
+    }
+
+    .layout__cel-btns {
+        margin: 0 8vw !important;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .layout__cel-img {
+        display: none;
+    }
+
+    .layout__celDivButton {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:480.5px) and (max-width: 767.5px) {
+    .layout__cel-img {
+        display: none;
+    }
+
+    .layout__cel {
+        flex-direction: column;
+    }
+
+    .layout__celTitulo {
+        font-size: 64px;
+    }
+
+    .info__criptografa-descriptografica{
+        margin-top: 25vh;
+    }
+
+    .layout__celInsercao,
+    .layout__cel-card {
+        width: 100%;
+    }
+
+    .layout__cel-btns{
+        margin: 0 !important;
+    }
+    .layout__cel-btns > button{
+        width: 45%;
+    }
+}
+
+ @media screen and (min-width:768px) and (max-width: 1281px) {
+    .info__criptografa-descriptografica{
+        margin-top: 25vh;
+    }
+
+    .layout__cel-btns{
+        margin: 0 0 0 15% !important;
+    }
+    .layout__cel-container{
+        padding: 0 !important;
+    }
+
+    .conteudo__exibidoText{
+        margin-left: 0 !important;
+  
+    }
+}
