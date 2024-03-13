@@ -90,4 +90,5 @@ function modificaElementos() {
 
 function copiarTexto() {
     navigator.clipboard.writeText(document.querySelector(".msgCriptografada").innerHTML)
+    
 }
