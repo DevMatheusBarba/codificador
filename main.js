@@ -2,7 +2,7 @@
 let msgOriginal = null
 let msgAlterada = null
 const verificaMaiuscula = (string) => /[A-Z]/.test(string);
-const verificaCharEspecial = (string) => /[^a-zA-Z ]/.test(string);
+const verificaCharEspecial = (string) => /[^a-zA-Z . , ]/.test(string);
 let informacao = document.querySelector(".informacao")
 
 let btnCriptografa = [...document.querySelectorAll(".btnsCriptografaDescriptografa")]
@@ -90,5 +90,5 @@ function modificaElementos() {
 
 function copiarTexto() {
     navigator.clipboard.writeText(document.querySelector(".msgCriptografada").innerHTML)
-    
+
 }
